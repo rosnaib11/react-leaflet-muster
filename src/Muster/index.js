@@ -3,8 +3,8 @@ import React from 'react';
 import { useLeafletContext, createPathComponent } from '@react-leaflet/core';
 
 import 'leaflet.markercluster';
-import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+//import 'leaflet.markercluster/dist/MarkerCluster.css';
+//import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
 export const MarkerMuster = createPathComponent(({ children: _, ...props }) => {
     const context = useLeafletContext();
